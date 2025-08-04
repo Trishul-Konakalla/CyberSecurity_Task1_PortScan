@@ -1,0 +1,69 @@
+# Nmap 7.97 scan initiated Mon Aug  4 18:14:31 2025 as: nmap -sS -oN result.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1 (192.168.1.1)
+Host is up (0.030s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 54:46:17:3B:E8:FE (zte)
+
+Nmap scan report for 192.168.1.20 (192.168.1.20)
+Host is up (0.045s latency).
+All 1000 scanned ports on 192.168.1.20 (192.168.1.20) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 70:BB:E9:60:EA:44 (Xiaomi Communications)
+
+Nmap scan report for 192.168.1.21 (192.168.1.21)
+Host is up (0.060s latency).
+All 1000 scanned ports on 192.168.1.21 (192.168.1.21) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 2A:BD:23:77:67:83 (Unknown)
+
+Nmap scan report for 192.168.1.22 (192.168.1.22)
+Host is up (0.13s latency).
+All 1000 scanned ports on 192.168.1.22 (192.168.1.22) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 0C:E0:DC:E4:6E:3F (Samsung Electronics)
+
+Nmap scan report for 192.168.1.23 (192.168.1.23)
+Host is up (0.055s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+9100/tcp open  jetdirect
+MAC Address: 72:D7:D7:61:04:AB (Unknown)
+
+Nmap scan report for 192.168.1.24 (192.168.1.24)
+Host is up (0.034s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+80/tcp   open     http
+8000/tcp filtered http-alt
+MAC Address: 38:54:39:04:4B:7A (Guangzhou Shiyuan Electronic Technology Company Limited)
+
+Nmap scan report for 192.168.1.41 (192.168.1.41)
+Host is up (0.036s latency).
+All 1000 scanned ports on 192.168.1.41 (192.168.1.41) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: EE:07:AB:5E:14:8F (Unknown)
+
+Nmap scan report for 192.168.1.42 (192.168.1.42)
+Host is up (0.033s latency).
+All 1000 scanned ports on 192.168.1.42 (192.168.1.42) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 72:56:7E:8B:05:7B (Unknown)
+
+Nmap scan report for 192.168.1.45 (192.168.1.45)
+Host is up (0.000098s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+903/tcp  open  iss-console-mgr
+3306/tcp open  mysql
+5432/tcp open  postgresql
+
+# Nmap done at Mon Aug  4 18:18:04 2025 -- 256 IP addresses (9 hosts up) scanned in 213.17 seconds
