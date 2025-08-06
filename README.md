@@ -29,13 +29,9 @@ To perform a **TCP SYN Scan** using Nmap on the local network to:
 ## 🧾 Step-by-Step Procedure
 
 ### ✅ 1. **Check your IP Address**
-```bash
 ipconfig
 This gave me my local IP:
 
-nginx
-Copy
-Edit
 IPv4 Address: 192.168.1.45
 Subnet Mask: 255.255.255.0
 From the subnet mask, we calculate the CIDR notation:
@@ -43,14 +39,8 @@ From the subnet mask, we calculate the CIDR notation:
 So our network range is: 192.168.1.0/24
 
 ✅ 2. Navigate to Nmap Directory
-bash
-Copy
-Edit
 cd "C:\Program Files (x86)\Nmap"
 ✅ 3. Run TCP SYN Scan and Save Result
-bash
-Copy
-Edit
 nmap -sS 192.168.1.0/24 -oN result.txt
 🔍 Explanation:
 Command	Meaning
